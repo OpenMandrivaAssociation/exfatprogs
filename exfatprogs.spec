@@ -29,9 +29,5 @@ autoreconf -vif
 %files
 %license COPYING
 %doc README.md
-%{_sbindir}/fsck.exfat
-%{_sbindir}/mkfs.exfat
-%{_sbindir}/tune.exfat
-%{_mandir}/man8/fsck.exfat.*
-%{_mandir}/man8/mkfs.exfat.*
-%{_mandir}/man8/tune.exfat.*
+%{_sbindir}/*
+%{_mandir}/man8/*.8.*
