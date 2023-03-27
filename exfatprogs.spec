@@ -1,7 +1,12 @@
+%ifnarch %{riscv}
+# (tpg) optimize it a bit
+%global optflags %{optflags} -Oz --rtlib=compiler-rt
+%endif
+
 Summary:	Userspace utilities for exFAT filesystems
 Name:		exfatprogs
 Version:	1.2.0
-Release:	2
+Release:	3
 License:	GPLv2
 Group:		System/Kernel and hardware
 URL:		https://github.com/%{name}/%{name}
