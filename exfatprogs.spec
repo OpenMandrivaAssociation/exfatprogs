@@ -6,7 +6,7 @@
 Summary:	Userspace utilities for exFAT filesystems
 Name:		exfatprogs
 Version:	1.2.0
-Release:	3
+Release:	4
 License:	GPLv2
 Group:		System/Kernel and hardware
 URL:		https://github.com/%{name}/%{name}
