@@ -5,7 +5,7 @@
 
 Summary:	Userspace utilities for exFAT filesystems
 Name:		exfatprogs
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 License:	GPLv2
 Group:		System/Kernel and hardware
