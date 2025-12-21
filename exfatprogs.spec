@@ -14,6 +14,11 @@ Source0:	%{url}/releases/download/%{version}/%{name}-%{version}.tar.xz
 Obsoletes:	exfat-utils < 1.6.0
 Provides:	exfat-utils = 1.6.0
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 Utilities for formatting and repairing exFAT filesystems.
 
