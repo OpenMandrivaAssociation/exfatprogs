@@ -27,7 +27,8 @@ Utilities for formatting and repairing exFAT filesystems.
 
 %build
 autoreconf -vif
-%configure \
+%configure AR=llvm-ar \
+           RANLIB=llvm-ranlib \
     --enable-shared=yes \
     --enable-static=no
 
