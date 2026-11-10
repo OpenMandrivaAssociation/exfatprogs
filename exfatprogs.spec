@@ -45,7 +45,7 @@ autoreconf -vif
 %{_sbindir}/*
 %{_libexecdir}/exfat-uctbl2bin.sh
 %doc %{_datadir}/doc/exfatprogs/upcase-mandatory.txt
-%doc %{_datadir}//doc/exfatprogs/upcase-null.txt
+%doc %{_datadir}/doc/exfatprogs/upcase-null.txt
 %doc %{_datadir}/doc/exfatprogs/upcase-recommended.txt
 %doc %{_mandir}/man1/chdosattr.1.*
 %doc %{_mandir}/man1/lsdosattr.1.*
