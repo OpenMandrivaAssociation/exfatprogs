@@ -20,6 +20,7 @@ BuildRequires: libtool-base
 BuildRequires: slibtool
 BuildRequires: make
 BuildRequires: util-linux-core
+BuildRequires: pkgconfig(blkid)
 %description
 Utilities for formatting and repairing exFAT filesystems.
 
